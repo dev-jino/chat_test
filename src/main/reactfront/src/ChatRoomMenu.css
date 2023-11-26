@@ -1,0 +1,122 @@
+.chat-room-menu-index .chat-menu {
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #8d8d8d;
+    border-radius: 0px 20px 20px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 700px;
+    left: 110px;
+    overflow: hidden;
+    padding: 10px 0px;
+    position: absolute;
+    top: 0;
+    width: 290px;
+}
+
+.chat-room-menu-index .chat-menu-header {
+    align-items: center;
+    background-color: #ffffff;
+    border-radius: 0px 20px 0px 0px;
+    display: flex;
+    gap: 10px;
+    height: 65px;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px 0px;
+    position: relative;
+    width: 290px;
+}
+
+.chat-room-menu-index .chat-menu-header-2 {
+    color: #000000;
+    font-family: "Font Awesome 5 Free-Solid", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    width: 210px;
+}
+
+.chat-room-menu-index .chat-room-menu-indexcontent {
+    align-items: flex-start;
+    background-color: #f9f9f9;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-color: #8d8d8d;
+    border-top-style: solid;
+    border-top-width: 2px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 530px;
+    padding: 10px;
+    position: relative;
+    width: 290px;
+}
+
+.chat-room-menu-index .div-2 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    position: relative;
+    width: 270px;
+}
+
+.chat-room-menu-index .chat-room-menu-indexuser {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    justify-content: center;
+    padding: 14px 13px;
+    position: relative;
+    width: 60px;
+}
+
+.chat-room-menu-index .div-3 {
+    background-color: #13954c;
+    border-radius: 15px;
+    height: 50px;
+    margin-bottom: -9px;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-top: -9px;
+    position: relative;
+    width: 50px;
+}
+
+.chat-room-menu-index .chat-room-menu-indexuser-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 60px;
+    padding: 10px 0px;
+    position: relative;
+    width: 200px;
+}
+
+.chat-room-menu-index .chat-room-menu-indexuser-2 {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 60px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -9px;
+    margin-top: -11px;
+    position: relative;
+    width: 200px;
+}
+
+.chat-room-menu-index .chat-room-menu-indexfooter {
+    height: 65px;
+    position: relative;
+    width: 290px;
+}

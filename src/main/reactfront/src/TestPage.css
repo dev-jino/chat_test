@@ -1,0 +1,186 @@
+.test-page-index {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.test-page-index .div {
+    background-color: #ffffff;
+    height: 940px;
+    position: relative;
+    width: 1347px;
+}
+
+.test-page-index .frame {
+    align-items: center;
+    border: 1px solid;
+    border-color: #000000;
+    display: flex;
+    gap: 10px;
+    height: 410px;
+    justify-content: center;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 411px;
+    width: 700px;
+}
+
+.test-page-index .frame-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 400px;
+    justify-content: center;
+    margin-bottom: -5px;
+    margin-top: -5px;
+    padding: 10px;
+    position: relative;
+    width: 440px;
+}
+
+.test-page-index .frame-3 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 125px;
+    justify-content: center;
+    margin-top: -7.5px;
+    padding: 10px;
+    position: relative;
+    width: 420px;
+}
+
+.test-page-index .div-wrapper {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 80px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 120px;
+}
+
+.test-page-index .text-wrapper {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 26px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: 86px;
+}
+
+.test-page-index .div-2 {
+    background-color: #f9f9f9;
+    height: 80px;
+    position: relative;
+    width: 200px;
+}
+
+.test-page-index .frame-4 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 125px;
+    justify-content: center;
+    padding: 10px;
+    position: relative;
+    width: 420px;
+}
+
+.test-page-index .frame-5 {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    height: 125px;
+    justify-content: center;
+    margin-bottom: -7.5px;
+    padding: 10px;
+    position: relative;
+    width: 420px;
+}
+
+.test-page-index .frame-6 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #000000;
+    display: flex;
+    gap: 10px;
+    height: 100px;
+    justify-content: center;
+    padding: 20px 34px;
+    position: relative;
+    width: 200px;
+}
+
+.test-page-index .text-wrapper-2 {
+    color: #000000;
+    font-family: "Poppins", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    height: 100px;
+    letter-spacing: 0;
+    line-height: normal;
+    margin-bottom: -19px;
+    margin-left: -34px;
+    margin-right: -34px;
+    margin-top: -21px;
+    position: relative;
+    text-align: center;
+    width: 200px;
+}
+
+.test-page-index .frame-7 {
+    align-items: center;
+    border: 1px solid;
+    border-color: #000000;
+    display: flex;
+    gap: 10px;
+    height: 410px;
+    justify-content: center;
+    left: 0;
+    padding: 10px;
+    position: absolute;
+    top: 1px;
+    width: 700px;
+}
+
+.chat-list-test {
+    border: 1px solid #000000;
+    left: 10px;
+    top: 900px;
+    height: 410px;
+    width: 700px;
+    position: absolute;
+}
+
+.chat-room-test {
+    border: 1px solid #000000;
+    left: 710px;
+    top: 900px;
+    height: 410px;
+    width: 700px;
+    position: absolute;
+}
+
+.chat-input-text-test {
+    position: absolute;
+    height: 20px;
+    bottom: 0;
+    left: 3px;
+}
+
+.chat-input-button-test {
+    position: absolute;
+    height: 25px;
+    bottom: 0;
+    left: 180px;
+}

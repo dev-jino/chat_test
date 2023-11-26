@@ -1,6 +1,8 @@
-import logo from './logo.svg';
 import './App.css';
 import axios from "axios";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import ChatButton from "./ChatButton";
+import TestPage from "./TestPage";
 
 function selectData() {
   axios.post('/api/testData', ["가", "나", "다"])
@@ -11,14 +13,12 @@ function selectData() {
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div>
-          <button onClick={() => selectData()}>조회</button>
-        </div>
-      </header>
-    </div>
+    <BrowserRouter>
+        <Routes>
+            {/*<Route path={'/'} element={<ChatButton />} />*/}
+            <Route path={'/'} element={<TestPage />} />
+        </Routes>
+    </BrowserRouter>
   );
 }
 
